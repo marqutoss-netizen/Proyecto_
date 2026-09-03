@@ -14,6 +14,20 @@ public class FosilAnimal extends ArtefactoAntiguo  {
         this.longitudMetros = longitudMetros;
         this.estadoConservacion = estadoConservacion;
     }
+        public FosilAnimal(String codigoRegistro, double pesoGramos, String especieEstimada, int antiguedadMillonesAnos, double longitudMetros, char estadoConservacion) {
+        super(codigoRegistro, pesoGramos);
+        this.especieEstimada = especieEstimada;
+        this.antiguedadMillonesAnos = antiguedadMillonesAnos;
+        this.longitudMetros = longitudMetros;
+        this.estadoConservacion = estadoConservacion;
+    }
+        public FosilAnimal(String codigoRegistro, String especieEstimada) {
+        super(codigoRegistro);
+        this.especieEstimada = especieEstimada;
+        this.antiguedadMillonesAnos = 1;
+        this.longitudMetros = 0.5;
+        this.estadoConservacion = 'B';
+    }
 
 
 }
