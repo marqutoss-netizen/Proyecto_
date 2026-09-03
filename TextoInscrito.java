@@ -15,7 +15,19 @@ public class TextoInscrito extends ArtefactoAntiguo {
         this.caracteresDescifrados = caracteresDescifrados;
     }
 
-
-
+    public TextoInscrito(String codigoRegistro, String idiomaOriginal, long caracteresDescifrados) {
+        super(codigoRegistro);
+        this.idiomaOriginal = idiomaOriginal;
+        this.cantidadCaracteres = 100;
+        this.anchoTablaCm = 15.5;
+        this.caracteresDescifrados = caracteresDescifrados;
+    }
+    public TextoInscrito(String codigoRegistro, double pesoGramos, int cantidadCaracteres, double anchoTablaCm) {
+        super(codigoRegistro, pesoGramos);
+        this.idiomaOriginal = "Desconocido";
+        this.cantidadCaracteres = cantidadCaracteres;
+        this.anchoTablaCm = anchoTablaCm;
+        this.caracteresDescifrados = 0L;
+    }
 
 }
