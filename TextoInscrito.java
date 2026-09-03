@@ -30,4 +30,10 @@ public class TextoInscrito extends ArtefactoAntiguo {
         this.caracteresDescifrados = 0L;
     }
 
+
+    @Override
+    public String toString() {
+        return "[Texto Inscrito] " + super.toString() + " -> Idioma: " + idiomaOriginal + ", Caracteres: " + cantidadCaracteres + ", Ancho: " + anchoTablaCm + "cm, Descifrados: " + caracteresDescifrados;
+    }
+
 }
