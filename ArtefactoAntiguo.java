@@ -37,6 +37,7 @@ public class ArtefactoAntiguo {
      @Override
     public String toString() {
         return "Código: " + codigoRegistro + ", Año: " + anoDescubrimiento + ", Peso(g): " + pesoGramos + ", Orgánico: " + esOrganico;
+    
+    
     }
-
-    }
+}
