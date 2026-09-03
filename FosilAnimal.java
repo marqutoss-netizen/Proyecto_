@@ -29,5 +29,10 @@ public class FosilAnimal extends ArtefactoAntiguo  {
         this.estadoConservacion = 'B';
     }
 
+    @Override
+    public String toString() {
+        return "[Fósil Animal] " + super.toString() + " -> Especie: " + especieEstimada + ", Antigüedad: " + antiguedadMillonesAnos + "M de años, Longitud: " + longitudMetros + "m, Conservación: " + estadoConservacion;
+    }
+
 
 }
