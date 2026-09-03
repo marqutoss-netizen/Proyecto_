@@ -5,6 +5,7 @@ public class ArtefactoAntiguo {
     private double pesoGramos;
     private boolean esOrganico;
 
+
     public ArtefactoAntiguo(String codigoRegistro, int anoDescubrimiento, double pesoGramos, boolean esOrganico) {
         this.codigoRegistro = codigoRegistro;
         this.anoDescubrimiento = anoDescubrimiento;
@@ -18,6 +19,15 @@ public class ArtefactoAntiguo {
         this(codigoRegistro, 0.0);
     }
 
+    
+
+    public String getCodigoRegistro() { return codigoRegistro; }
+
+    public int getAnoDescubrimiento() { return anoDescubrimiento; }
+
+    public double getPesoGramos() { return pesoGramos; }
+
+    public boolean isEsOrganico() { return esOrganico; }
 
 
 
