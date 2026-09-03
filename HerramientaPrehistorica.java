@@ -31,6 +31,19 @@ public class HerramientaPrehistorica extends ArtefactoAntiguo {
     }
 
     
+    public String getMaterialPrincipal() { return materialPrincipal; }
+    public void setMaterialPrincipal(String materialPrincipal) { this.materialPrincipal = materialPrincipal; }
+
+    public int getFiloEstimadoNewton() { return filoEstimadoNewton; }
+    public void setFiloEstimadoNewton(int filoEstimadoNewton) { this.filoEstimadoNewton = filoEstimadoNewton; }
+
+    public double getGrosorMm() { return grosorMm; }
+    public void setGrosorMm(double grosorMm) { this.grosorMm = grosorMm; }
+
+    public boolean isTieneMango() { return tieneMango; } // Recuerda: 'is' por ser boolean
+    public void setTieneMango(boolean tieneMango) { this.tieneMango = tieneMango; }
+
+
     @Override
     public String toString() {
         return "[Herramienta] " + super.toString() + " -> Material: " + materialPrincipal + ", Filo: " + filoEstimadoNewton + "N, Grosor: " + grosorMm + "mm, Mango: " + tieneMango;
