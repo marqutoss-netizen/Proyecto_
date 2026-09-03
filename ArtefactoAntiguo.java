@@ -33,4 +33,10 @@ public class ArtefactoAntiguo {
     public boolean isEsOrganico() { return esOrganico; }
     public void setEsOrganico(boolean esOrganico) { this.esOrganico = esOrganico; }
 
-}
+
+     @Override
+    public String toString() {
+        return "Código: " + codigoRegistro + ", Año: " + anoDescubrimiento + ", Peso(g): " + pesoGramos + ", Orgánico: " + esOrganico;
+    }
+
+    }
