@@ -1,3 +1,3 @@
-public class FosilAnimal {
+public class FosilAnimal extends ArtefactoAntiguo  {
     
 }
