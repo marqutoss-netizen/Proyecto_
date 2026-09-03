@@ -31,6 +31,8 @@ public class HerramientaPrehistorica extends ArtefactoAntiguo {
     }
 
     
-
-
+    @Override
+    public String toString() {
+        return "[Herramienta] " + super.toString() + " -> Material: " + materialPrincipal + ", Filo: " + filoEstimadoNewton + "N, Grosor: " + grosorMm + "mm, Mango: " + tieneMango;
+    }
 }
