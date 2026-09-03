@@ -5,6 +5,8 @@ public class HerramientaPrehistorica extends ArtefactoAntiguo {
     private double grosorMm;
     private boolean tieneMango;
 
+
+
     public HerramientaPrehistorica(String codigoRegistro, int anoDescubrimiento, double pesoGramos, boolean esOrganico,
                                    String materialPrincipal, int filoEstimadoNewton, double grosorMm, boolean tieneMango) {
         super(codigoRegistro, anoDescubrimiento, pesoGramos, esOrganico);
@@ -13,6 +15,22 @@ public class HerramientaPrehistorica extends ArtefactoAntiguo {
         this.grosorMm = grosorMm;
         this.tieneMango = tieneMango;
     }
+    public HerramientaPrehistorica(String codigoRegistro, double pesoGramos, String materialPrincipal, int filoEstimadoNewton) {
+        super(codigoRegistro, pesoGramos);
+        this.materialPrincipal = materialPrincipal;
+        this.filoEstimadoNewton = filoEstimadoNewton;
+        this.grosorMm = 10.0;
+        this.tieneMango = false;
+    }
+    public HerramientaPrehistorica(String codigoRegistro, String materialPrincipal, int filoEstimadoNewton) {
+        super(codigoRegistro);
+        this.materialPrincipal = materialPrincipal;
+        this.filoEstimadoNewton = filoEstimadoNewton;
+        this.grosorMm = 5.0;
+        this.tieneMango = true;
+    }
+
+    
 
 
 }
