@@ -29,6 +29,20 @@ public class FosilAnimal extends ArtefactoAntiguo  {
         this.estadoConservacion = 'B';
     }
 
+
+    public String getEspecieEstimada() { return especieEstimada; }
+    public void setEspecieEstimada(String especieEstimada) { this.especieEstimada = especieEstimada; }
+
+    public int getAntiguedadMillonesAnos() { return antiguedadMillonesAnos; }
+    public void setAntiguedadMillonesAnos(int antiguedadMillonesAnos) { this.antiguedadMillonesAnos = antiguedadMillonesAnos; }
+
+    public double getLongitudMetros() { return longitudMetros; }
+    public void setLongitudMetros(double longitudMetros) { this.longitudMetros = longitudMetros; }
+
+    public char getEstadoConservacion() { return estadoConservacion; }
+    public void setEstadoConservacion(char estadoConservacion) { this.estadoConservacion = estadoConservacion; }
+
+    
     @Override
     public String toString() {
         return "[Fósil Animal] " + super.toString() + " -> Especie: " + especieEstimada + ", Antigüedad: " + antiguedadMillonesAnos + "M de años, Longitud: " + longitudMetros + "m, Conservación: " + estadoConservacion;
