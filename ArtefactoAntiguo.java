@@ -22,15 +22,15 @@ public class ArtefactoAntiguo {
     
 
     public String getCodigoRegistro() { return codigoRegistro; }
+    public void setCodigoRegistro(String codigoRegistro) { this.codigoRegistro = codigoRegistro; }
 
     public int getAnoDescubrimiento() { return anoDescubrimiento; }
+    public void setAnoDescubrimiento(int anoDescubrimiento) { this.anoDescubrimiento = anoDescubrimiento; }
 
     public double getPesoGramos() { return pesoGramos; }
+    public void setPesoGramos(double pesoGramos) { this.pesoGramos = pesoGramos; }
 
     public boolean isEsOrganico() { return esOrganico; }
-
-
-
-
+    public void setEsOrganico(boolean esOrganico) { this.esOrganico = esOrganico; }
 
 }
