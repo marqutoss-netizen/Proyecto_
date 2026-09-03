@@ -32,5 +32,16 @@ public class Main {
 
 
 
+        System.out.println(objeto1.toString());
+        System.out.println(objeto2.toString());
+        System.out.println(objeto3.toString());
+        System.out.println(objeto4.toString());
+        System.out.println(objeto5.toString());
+        System.out.println(objeto6.toString());
+        System.out.println(objeto7.toString());
+        System.out.println(objeto8.toString());
+
+
+
     }
 }
