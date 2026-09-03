@@ -1,3 +1,3 @@
-public class HerramientaPrehistorica {
+public class HerramientaPrehistorica extends ArtefactoAntiguo {
     
 }
