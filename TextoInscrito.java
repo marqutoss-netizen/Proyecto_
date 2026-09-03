@@ -31,6 +31,20 @@ public class TextoInscrito extends ArtefactoAntiguo {
     }
 
 
+    public String getIdiomaOriginal() { return idiomaOriginal; }
+    public void setIdiomaOriginal(String idiomaOriginal) { this.idiomaOriginal = idiomaOriginal; }
+
+    public int getCantidadCaracteres() { return cantidadCaracteres; }
+    public void setCantidadCaracteres(int cantidadCaracteres) { this.cantidadCaracteres = cantidadCaracteres; }
+
+    public double getAnchoTablaCm() { return anchoTablaCm; }
+    public void setAnchoTablaCm(double anchoTablaCm) { this.anchoTablaCm = anchoTablaCm; }
+
+    public long getCaracteresDescifrados() { return caracteresDescifrados; }
+    public void setCaracteresDescifrados(long caracteresDescifrados) { this.caracteresDescifrados = caracteresDescifrados; }
+
+
+
     @Override
     public String toString() {
         return "[Texto Inscrito] " + super.toString() + " -> Idioma: " + idiomaOriginal + ", Caracteres: " + cantidadCaracteres + ", Ancho: " + anchoTablaCm + "cm, Descifrados: " + caracteresDescifrados;
